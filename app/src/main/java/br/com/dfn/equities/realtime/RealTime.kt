@@ -77,6 +77,3 @@ data class Item(
 fun realTimeRegister(func: RealTimeBuilder.() -> Unit): RealTimeBuilder {
     return RealTimeBuilder().apply(func)
 }
-
-
-
